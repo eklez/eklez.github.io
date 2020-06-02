@@ -4,7 +4,7 @@ tagline:          'A Jekyll theme'
 description:      '사소하지만 유용함'
 url:              https://eklez.github.io/
 baseurl:          ''
-paginate:         5
+paginate:         2
 
 # About and contact
 author:
