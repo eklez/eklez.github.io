@@ -1,7 +1,7 @@
 # Setup
-title:            Hyde
+title:            Eklez 잡동사니
 tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="https://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+description:      '사소하지만 유용함'
 url:              https://eklez.github.io/
 baseurl:          ''
 paginate:         5
