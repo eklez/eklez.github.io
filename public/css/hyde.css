@@ -130,6 +130,43 @@ a.sidebar-nav-item:focus {
 
 }
 
+.search-container > input {
+
+    margin: 0;
+    width: 13rem;
+    height: 33px;
+    border-radius: 17px;
+    border: 1px solid #e6e6e6;
+    padding: 0 2.5rem 0 15px; /* 30px(right-padding) = 15(right-padding) + 10(icon-width) + 5(@@iolo) */
+    font-size: 14px;
+    color: #505050;
+    background-image: url(../images/icon_search.png);
+    background-repeat: no-repeat;
+    background-size: 13px 13px;
+    background-position-x: 11.5rem;
+    background-position-y: 9px;
+
+
+}
+
+.search-result {
+    position:absolute;
+    left:1rem;
+    width:13rem;
+    background-color:#fff;
+    color:#505050;
+    border-radius: 4px;
+    border: 0;
+    bottom:4rem;
+    z-index:999;
+    line-height:2rem;
+    opacity:0.8;
+    transition: 1s ease;
+}
+
+.search-result > li > a {
+    color:#505050;
+}
 
 /* Container
  *

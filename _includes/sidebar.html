@@ -28,10 +28,10 @@
     </nav>
 
     <!-- Html Elements for Search -->
-    <div id="search-container">
+    <div class="search-container">
       <input type="text" id="search-input" placeholder="search...">
-      <ul id="results-container"></ul>
     </div>
+    <ul class="search-result" id="results-container"></ul>
 
     <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
   </div>
@@ -50,4 +50,4 @@
     searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
     limit: 15
   })
-</script>>
+</script>
