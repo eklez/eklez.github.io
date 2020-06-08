@@ -172,6 +172,18 @@ a.sidebar-nav-item:focus {
     color:#505050;
 }
 
+@media (min-width:30em) {
+  .search-result {
+      font-size:0.9rem;
+      top:16.8rem;
+  }
+  
+  .search-result > li > a {
+      color:#505050;
+  }
+  
+}
+ 
 @media (min-width:48em) {
 .search-result {
     font-size:0.7rem;
